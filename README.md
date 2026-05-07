@@ -15,8 +15,8 @@ A single-page portfolio built with **React + Vite**, styled with **plain CSS**, 
 
 ## Live Preview
 
-[lastest-portfolio.netlify.app](https://lastest-portfolio.netlify.app/) ← previous version  
-*(deploy this new version and update the link above)*
+[blessing-dawodu-portfolio.netlify.app](https://blessing-dawodu-portfolio.netlify.app/)
+![Portfolio Preview](./src/assets/Capture-preview.PNG)
 
 ---
 
@@ -29,7 +29,7 @@ A single-page portfolio built with **React + Vite**, styled with **plain CSS**, 
 | Framer Motion 11 | Animations (entrance, scroll, hover) |
 | Plain CSS | Styling — no Tailwind, no CSS-in-JS |
 | 21st.dev FallingPattern | Animated background component |
-| Google Fonts | Syne · DM Mono · Geist |
+| Google Fonts | Inter · DM Mono · Geist |
 
 ---
 
@@ -76,53 +76,7 @@ That's the only extra package you need. Framer Motion powers all entrance animat
 
 ---
 
-### Step 3 — Clean up default files
-
-Vite ships with placeholder files. Remove them:
-
-```bash
-# Delete these (you don't need them):
-rm src/App.css          # ← you'll replace this
-rm src/App.jsx          # ← you'll replace this
-rm src/index.css        # ← optionally keep for body resets
-rm src/assets/react.svg
-```
-
-Or just **overwrite** them in the next step — either works.
-
----
-
-### Step 4 — Copy in the source files
-
-Copy these three files from this repo into your project:
-
-| File | Where to put it |
-|---|---|
-| `index.html` | Root of your project (replace the existing one) |
-| `src/App.jsx` | `src/App.jsx` |
-| `src/App.css` | `src/App.css` |
-|`src/data.js` | `src/data.js` |
-| `src/FallingPattern.jsx` | `src/FallingPattern.jsx` |
-
-Your `src/main.jsx` should already exist from Vite. Make sure it looks like this:
-
-```jsx
-// src/main.jsx
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './App.css'
-import App from './App.jsx'
-
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-)
-```
-
----
-
-### Step 5 — Run the dev server
+### Step 3 — Run the dev server
 
 ```bash
 npm run dev
@@ -132,9 +86,9 @@ Open [http://localhost:5173](http://localhost:5173) in your browser. You should 
 
 ---
 
-### Step 6 — Personalise the content
+### Step 4 — Personalise the content
 
-Most content lives in **`src/App.jsx`** at the top of the file in plain JavaScript arrays. No CMS, no config files — just edit these:
+Most content lives in **`src/App.jsx`** in the data file are plain JavaScript arrays. No CMS, no config files — just edit these:
 
 ```js
 // Your nav links
@@ -159,7 +113,7 @@ Also update:
 
 ---
 
-### Step 7 — Customise the FallingPattern colours
+### Step 5 — Customise the FallingPattern colours
 
 The `FallingPattern` component accepts props. In `App.jsx`, find:
 
@@ -185,7 +139,7 @@ Try changing `color` to match your brand. Example teal version:
 
 ---
 
-### Step 8 — Customise colours
+### Step 6 — Customise colours
 
 All colour tokens are CSS variables at the top of `App.css`:
 
@@ -206,7 +160,7 @@ Change `--accent` and `--accent2` to match your personal brand colour.
 
 ---
 
-### Step 10 — Build for production
+### Step 7 — Build for production
 
 ```bash
 npm run build
@@ -338,7 +292,7 @@ The `FallingPattern` background is hidden on mobile (`display: none`) to save ba
 
 - Layout inspired by [Brittany Chiang's portfolio](https://brittanychiang.com)
 - FallingPattern component from [21st.dev](https://21st.dev)
-- Fonts: [Syne](https://fonts.google.com/specimen/Syne), [DM Mono](https://fonts.google.com/specimen/DM+Mono), [Geist](https://fonts.google.com/specimen/Geist) via Google Fonts
+- Fonts: [Inter](https://fonts.google.com/specimen/Inter), [DM Mono](https://fonts.google.com/specimen/DM+Mono), [Geist](https://fonts.google.com/specimen/Geist) via Google Fonts
 
 ---
 
