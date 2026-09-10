@@ -373,7 +373,7 @@ function App() {
               style={{ marginTop: "32px" }}
             >
               <a
-                href="https://docs.google.com/document/d/1IG8ey5h5y8Ldmqu4m1Ej1nGcnna5Xt2sZgdI4C7_vz8/edit?usp=sharing"
+                href="https://docs.https://docs.google.com/document/d/1IG8ey5h5y8Ldmqu4m1Ej1nGcnna5Xt2sZgdI4C7_vz8/edit?usp=sharing.com/document/d/1IG8ey5h5y8Ldmqu4m1Ej1nGcnna5Xt2sZgdI4C7_vz8/edit?usp=sharing"
                 className="resume-link"
                 target="_blank"
                 rel="noopener noreferrer"
