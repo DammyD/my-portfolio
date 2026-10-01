@@ -343,12 +343,14 @@ function App() {
               </p>
               <p>
                 Previously, I worked across startup and training environments,
-                including <strong>Flypro.io</strong> and{" "}<strong>Trameter Inc.</strong>, where I translated UI
-                designs into responsive, production-ready interfaces,
-                restructured application layouts, and collaborated closely with
-                senior developers to build reusable frontend components. During
-                my time at the <strong>Stutern Accelerator Program</strong>, I also mentored
-                fellow learners in frontend fundamentals and team collaboration.
+                including <strong>Flypro.io</strong> and{" "}
+                <strong>Trameter Inc.</strong>, where I translated UI designs
+                into responsive, production-ready interfaces, restructured
+                application layouts, and collaborated closely with senior
+                developers to build reusable frontend components. During my time
+                at the <strong>Stutern Accelerator Program</strong>, I also
+                mentored fellow learners in frontend fundamentals and team
+                collaboration.
               </p>
               <p>
                 When I'm not pushing pixels, I'm exploring open-source tools,
@@ -373,7 +375,7 @@ function App() {
               style={{ marginTop: "32px" }}
             >
               <a
-                href="https://docs.https://docs.google.com/document/d/1IG8ey5h5y8Ldmqu4m1Ej1nGcnna5Xt2sZgdI4C7_vz8/edit?usp=sharing.com/document/d/1IG8ey5h5y8Ldmqu4m1Ej1nGcnna5Xt2sZgdI4C7_vz8/edit?usp=sharing"
+                href="https://docs.google.com/document/d/1oANyLyl8opxb8M5HLIEBc_3fLSSbx9me_ws7K1fvUFs/edit?usp=sharing"
                 className="resume-link"
                 target="_blank"
                 rel="noopener noreferrer"
